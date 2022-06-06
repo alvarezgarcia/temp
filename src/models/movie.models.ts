@@ -4,6 +4,7 @@ export interface ShowQueryI {
 }
 
 export interface MovieI {
+    id: number,
     averageRuntime: number,
     dvdCountry: any,
     ended: string,
@@ -13,7 +14,6 @@ export interface MovieI {
         tvrage: number
     },
     genres: string[],
-    id: number,
     image?: {
         medium: string,
         original: string
